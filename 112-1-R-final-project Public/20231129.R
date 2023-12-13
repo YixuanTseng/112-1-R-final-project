@@ -34,7 +34,7 @@ dataSet$飲酒情形 <-
 
 levels(dataSet$飲酒情形)
 list(
-  有 = list_summary_frequency[["飲酒情形"]][1:5]
+  有 = list_summary_frequency[["飲酒情形"]][1:5],
   無 = list_summary_frequency[["飲酒情形"]][-c(1:5)]
 )
 
